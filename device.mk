@@ -20,6 +20,10 @@ PRODUCT_PACKAGES := \
     CarrierConfig \
     BasicSmsReceiver
 
+# Dialer package.
+PRODUCT_PACKAGES += \
+Dialer 
+
 PRODUCT_COPY_FILES := \
     device/asus/deb/fstab.deb:root/fstab.flo \
     device/asus/deb/init.deb.rc:root/init.flo.rc
